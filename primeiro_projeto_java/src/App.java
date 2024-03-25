@@ -46,7 +46,6 @@ class Joguinho {
         Scanner lerVontade = new Scanner(System.in);
         System.out.println("Você quer que eu adivinhe seu nome?");
         boolean vontade = lerVontade.nextBoolean();
-
         if (vontade) {
             System.out.println("Sua idade é... " + idade_do_jogador);
         } else {
